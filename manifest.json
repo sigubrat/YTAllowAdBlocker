@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube AdBlock Popup Closer",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
