@@ -5,5 +5,6 @@ window.addEventListener('load', function() {
     const dismissButton = document.getElementById('dismiss-button');
     if (dismissButton) {
       dismissButton.click();
+      console.log('[DEBUG] Popup window closed');
     }
   });
