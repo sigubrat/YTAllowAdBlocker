@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "YouTube AdBlock Popup Closer",
     "version": "1.0",
     "description": "A simple browser extension that removes the pop-up complaining about adblockers on YoutTube",
