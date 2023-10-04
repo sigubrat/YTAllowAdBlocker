@@ -3,7 +3,7 @@ const observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
       if (mutation.type === 'childList') {
         console.log("[DEBUG] Mutation detected, checking for specific element...");
-        const specificElement = document.querySelector('your-element-selector');
+        const specificElement = document.querySelector('ytd-enforcement-message-view-model');
         if (specificElement) {
           console.log("[DEBUG] Specific element found, starting new observer...");
           observer.disconnect(); // stop observing the document
